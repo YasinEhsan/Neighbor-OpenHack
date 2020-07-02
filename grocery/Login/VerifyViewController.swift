@@ -38,7 +38,7 @@ extension VerifyViewController: UITextFieldDelegate {
         print("hellloo")
         
 //        firebase aut codee
-        verifyTextField.text = dummyUserCodes[verifyTextField.text!]
+        verifyTextField.text = verifyTextField.text!
         if verification_id != nil {
             let credential = PhoneAuthProvider.provider().credential(withVerificationID: verification_id!, verificationCode: verifyTextField.text!)
             Auth.auth().signIn(with: credential, completion: { authData, error in

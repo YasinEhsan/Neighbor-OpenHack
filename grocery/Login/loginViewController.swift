@@ -56,7 +56,8 @@ extension loginViewController: UITextFieldDelegate {
         numberTextField.resignFirstResponder()
         
 //        added firebase auth code
-        numberTextField.text = dummyUsers[numberTextField.text!]
+//        CHNAGE HERE FOR DUMMY NUMBERS W DUMMY DICTIONARY ABOVE
+        numberTextField.text = numberTextField.text!
         if !numberTextField.text!.isEmpty {
         Auth.auth().settings?.isAppVerificationDisabledForTesting = false
         PhoneAuthProvider.provider().verifyPhoneNumber(numberTextField.text!, uiDelegate: nil, completion: { verficationID, error in
