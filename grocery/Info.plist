@@ -23,10 +23,12 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.720522327897-dnan5hd7en7qn0o67o7h3jg69q0959q9</string>
+				<string>com.googleusercontent.apps.720522327897-7jsh3l3eg638ik38d5a416jfsbqcn9cm</string>
 			</array>
 		</dict>
 	</array>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
