@@ -83,7 +83,7 @@
 		69E16D22D949565FC97BBAAE /* Pods_groceryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_groceryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DA0F11F502AC8F6DCDDC6B /* Pods-groceryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-groceryTests.release.xcconfig"; path = "Target Support Files/Pods-groceryTests/Pods-groceryTests.release.xcconfig"; sourceTree = "<group>"; };
 		7A626E258E4D7B7906856DD4 /* Pods-grocery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grocery.release.xcconfig"; path = "Target Support Files/Pods-grocery/Pods-grocery.release.xcconfig"; sourceTree = "<group>"; };
-		7C461F1B247AC3DC0061A6D9 /* ListHeaderViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ListHeaderViewCell.xib; path = "/Users/yasinehsan/groceryApp/Neighbor-OpenHack/grocery/View Design/ListHeaderViewCell.xib"; sourceTree = "<absolute>"; };
+		7C461F1B247AC3DC0061A6D9 /* ListHeaderViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ListHeaderViewCell.xib; path = "/Users/yasinehsan/hackathons/groceryApp/Neighbor-OpenHack/grocery/View Design/ListHeaderViewCell.xib"; sourceTree = "<absolute>"; };
 		7C461F1C247AC3DC0061A6D9 /* ListHeaderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListHeaderViewCell.swift; path = ../../ListHeaderViewCell.swift; sourceTree = "<group>"; };
 		7C67751B2434193400686E74 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 		7C67752024341B2D00686E74 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		7C8E7D9C2439C75A003CCAD7 /* ItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewCell.swift; sourceTree = "<group>"; };
 		7C8E7D9E2439E867003CCAD7 /* GroceryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryList.swift; sourceTree = "<group>"; };
 		7C9174632445291E00648975 /* NotifKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifKeys.swift; sourceTree = "<group>"; };
-		7C9B890E24ADA102005F0916 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7C9B890E24ADA102005F0916 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7CBF63562457900900F4B7EF /* UserHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHub.swift; sourceTree = "<group>"; };
 		7CC4F60E24313561000EE57E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		7CC4F614243144D0000EE57E /* ItemFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemFormViewController.swift; sourceTree = "<group>"; };
@@ -710,7 +710,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.theopencode.hack.neighbor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasinehsan.grocery2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "grocery/ShoppingList/grocery-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -732,7 +732,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.theopencode.hack.neighbor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasinehsan.grocery2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "grocery/ShoppingList/grocery-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

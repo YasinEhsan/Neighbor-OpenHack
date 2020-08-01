@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zna-d3-0pl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KVa-oU-5cl">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -19,16 +19,8 @@
                             <rect key="frame" x="0.0" y="0.0" width="375" height="385"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="userHead2" translatesAutoresizingMaskIntoConstraints="NO" id="gil-mF-I0G">
-                                    <rect key="frame" x="276" y="-6" width="81" height="56"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                </imageView>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="community" translatesAutoresizingMaskIntoConstraints="NO" id="nQw-HA-zPs">
                                     <rect key="frame" x="20" y="58" width="332" height="107"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                </imageView>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="info" translatesAutoresizingMaskIntoConstraints="NO" id="rIw-cU-PTi">
-                                    <rect key="frame" x="20" y="159" width="334" height="138"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqz-vF-toL">
@@ -37,20 +29,6 @@
                                     <state key="normal" image="request"/>
                                     <connections>
                                         <segue destination="cy9-t9-2Bu" kind="presentation" modalPresentationStyle="automatic" id="pmt-uv-eH0"/>
-                                    </connections>
-                                </button>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YhM-K3-oMK">
-                                    <rect key="frame" x="29" y="8" width="251" height="42"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e9O-Hh-QEm">
-                                    <rect key="frame" x="276" y="-13" width="77" height="71"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <connections>
-                                        <action selector="signOutButton:" destination="Xfk-3w-Gzd" eventType="touchUpInside" id="TiE-L2-aQj"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -64,7 +42,6 @@
                     <tabBarItem key="tabBarItem" title="" image="person.fill" catalog="system" id="5pc-Gl-6dJ"/>
                     <connections>
                         <outlet property="itemTableView" destination="B9m-cO-752" id="P4l-00-CSQ"/>
-                        <outlet property="nameLabel" destination="YhM-K3-oMK" id="vNc-1E-06v"/>
                         <segue destination="Zna-d3-0pl" kind="presentation" identifier="profileVCToLoginVC" modalPresentationStyle="fullScreen" id="9pc-rz-n6I"/>
                     </connections>
                 </tableViewController>
@@ -463,7 +440,6 @@
         <image name="delivery" width="349" height="81"/>
         <image name="feedTitle" width="284" height="73"/>
         <image name="finished" width="349" height="81"/>
-        <image name="info" width="347" height="142"/>
         <image name="list.dash" catalog="system" width="64" height="42"/>
         <image name="login" width="750" height="1624"/>
         <image name="person.fill" catalog="system" width="64" height="60"/>
@@ -473,7 +449,6 @@
         <image name="shoppingTitle" width="199" height="32"/>
         <image name="submit" width="349" height="81"/>
         <image name="tabs" width="346" height="82"/>
-        <image name="userHead2" width="170.66667175292969" height="170.66667175292969"/>
         <image name="verify" width="750" height="1624"/>
     </resources>
     <inferredMetricsTieBreakers>
