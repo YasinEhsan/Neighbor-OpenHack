@@ -20,7 +20,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="379" height="88"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="snt-oh-8ot">
-                        <rect key="frame" x="94" y="38" width="141" height="30"/>
+                        <rect key="frame" x="94" y="20" width="156" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.94333755970001221" green="0.58106174819872325" blue="0.43769369662682078" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
